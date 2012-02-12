@@ -36,8 +36,8 @@ div#center_page {
 	position: relative;
 	top: -60px;
 	width: 1100px;
-	height: 769px;
-	background: #0e564e url("../images/MainPageBackground.png") no-repeat;
+	height: 869px;
+	background: url("../images/MainPageBackground.png") no-repeat;
 	margin: 0px auto;
 }
 
@@ -67,6 +67,6 @@ div#window_back_view {
 	position: absolute;
 	left: 252px;
 	top: 132px;
-	z-index: 2;
+	z-index: -1;
 }
 
