@@ -29,15 +29,15 @@ a:active {
 body {
 	width: 1100px;
 	margin: 0px auto;
-	background: black;
 }
 
 div#center_page {
 	position: relative;
-	top: -60px;
+	position: absolute;
+	top: 	0px;
 	width: 1100px;
 	height: 869px;
-	background: url("../images/MainPageBackground.png") no-repeat;
+	background: url("../images/MainPageBackgroundWhite.png") no-repeat;
 	margin: 0px auto;
 }
 
@@ -64,9 +64,21 @@ div#window_open {
 }
 
 div#window_back_view {
-	position: absolute;
-	left: 252px;
-	top: 132px;
+	position: relative;
+	left: 50px;
 	z-index: -1;
 }
 
+div#news_board {
+	position: relative;
+	left: 520px;
+	top: -350px;
+	z-index:3;
+}
+
+div#books {
+	position:relative;
+	left: 400px;
+	top: -380px;
+	z-index:3;
+}

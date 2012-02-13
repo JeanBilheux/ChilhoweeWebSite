@@ -1,0 +1,7 @@
+body {
+	background: black;
+}
+
+div#center_page {
+	background: url("../images/MainPageBackgroundBlack.png") no-repeat;
+}
