@@ -82,3 +82,10 @@ div#books {
 	top: -380px;
 	z-index:3;
 }
+
+div#camera {
+	position: relative;
+	left: 870px;
+	top: -430px;
+	z-index: 3;
+}

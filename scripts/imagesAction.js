@@ -6,6 +6,9 @@ $(document).ready(function() {
 	$("#a_books").bind("mouseover", booksOver);
 	$("#a_books").bind("mouseout", booksOut);
 	
+	$("#a_camera").bind("mouseover", cameraOver);
+	$("#a_camera").bind("mouseout", cameraOut);
+
 	function newsBoardMouseOver() {
 		$('#a_news_board img').attr('src',"../images/NewsBoardOver.png");
 	};
@@ -22,5 +25,12 @@ $(document).ready(function() {
 		$("#a_books img").attr('src','../images/BooksOff.png');
 	}
 	
+	function cameraOver() {
+		$("#a_camera img").attr('src','../images/cameraOver.png');
+	}
+	
+	function cameraOut() {
+		$("#a_camera img").attr('src','../images/cameraOff.png');
+	}
 	
 });
