@@ -73,19 +73,41 @@ div#news_board {
 	position: relative;
 	left: 520px;
 	top: -350px;
-	z-index:3;
+	z-index:1;
 }
 
 div#books {
 	position:relative;
 	left: 400px;
 	top: -380px;
-	z-index:3;
+	z-index:1;
 }
 
 div#camera {
 	position: relative;
 	left: 870px;
 	top: -430px;
-	z-index: 3;
+	z-index: 1;
 }
+
+div#rates {
+	position: relative;
+	left: 370px;
+	top: -310px;
+	z-index:3;
+}
+
+div#instructions {
+	position: relative;
+	left: 855px;
+	top: -605px;
+	z-index:3;
+}
+
+div#store {
+	position: absolute;
+	top: 485px;
+	left: 290px;
+	z-index:1;
+}
+
