@@ -87,7 +87,7 @@ div#camera {
 	position: relative;
 	left: 870px;
 	top: -430px;
-	z-index: 1;
+	z-index: 3;
 }
 
 div#rates {
@@ -105,9 +105,9 @@ div#instructions {
 }
 
 div#store {
-	position: absolute;
-	top: 485px;
-	left: 290px;
-	z-index:1;
+	position: relative;
+	top: -990px;
+	left: 100px;
+	z-index:2;
 }
 
